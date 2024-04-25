@@ -2,7 +2,7 @@
 
 
 body {
-  background-image: url("../images/cloud-shapes-with-blue-background.jpg");
+  background-image: url("../images/top-view-grey-clouds-arrangement.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -197,13 +197,13 @@ body {
 }
 
 .credit a {
-  color: #f06789;
+  color: #a94b7e;
   font-weight: 500;
   text-decoration: none;
 }
 
 .credit a:hover {
-  color: #a94b7e;
+  color:#f06789 ;
 }
 
 /* Desktop view */
