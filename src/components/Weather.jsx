@@ -52,7 +52,7 @@ function Weather(currentLocation) {
       await axios
         .get(url)
         .then((res) => {
-          console.log("res", res);
+          // console.log("res", res);
           setWeather({ data: res.data, loading: false, error: false });
           setErr('')
         })
@@ -66,7 +66,7 @@ function Weather(currentLocation) {
 
   useEffect(() => {
     const fetchData = async () => {
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${currentLocation.location}&units=metric&appid=088adce8eb6ce06f01f8b2fe7a74d548`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${currentLocation.location}&units=metric&appid=${apiKey}`
 
       try {
         const response = await axios.get(url);
