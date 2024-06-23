@@ -6,9 +6,9 @@ function Forecast({ weather }) {
   const { data } = weather;
   const [forecastData, setForecastData] = useState([]);
   const [isCelsius, setIsCelsius] = useState(true); // Track temperature unit
-
+  const apiKey = process.env.REACT_APP_OPENWEATHERMAP_API_KEY
   useEffect(() => {
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${data.city}&units=metric&appid=088adce8eb6ce06f01f8b2fe7a74d548`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${data.city}&units=metric&appid=${apiKey}`
   }, [data.city]);
 
   const formatDay = (dateString) => {
