@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-weather-app/static/css/main.581e915b.css",
-    "main.js": "/react-weather-app/static/js/main.61d69feb.js",
+    "main.css": "/react-weather-app/static/css/main.52edcc19.css",
+    "main.js": "/react-weather-app/static/js/main.28e53ccc.js",
     "static/media/fa-solid-900.ttf": "/react-weather-app/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/react-weather-app/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/cloud-shapes-with-blue-background.jpg": "/react-weather-app/static/media/cloud-shapes-with-blue-background.d9dbf0b171c00102c7b2.jpg",
@@ -12,11 +12,11 @@
     "static/media/fa-v4compatibility.ttf": "/react-weather-app/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/react-weather-app/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/react-weather-app/index.html",
-    "main.581e915b.css.map": "/react-weather-app/static/css/main.581e915b.css.map",
-    "main.61d69feb.js.map": "/react-weather-app/static/js/main.61d69feb.js.map"
+    "main.52edcc19.css.map": "/react-weather-app/static/css/main.52edcc19.css.map",
+    "main.28e53ccc.js.map": "/react-weather-app/static/js/main.28e53ccc.js.map"
   },
   "entrypoints": [
-    "static/css/main.581e915b.css",
-    "static/js/main.61d69feb.js"
+    "static/css/main.52edcc19.css",
+    "static/js/main.28e53ccc.js"
   ]
 }
