@@ -43,11 +43,11 @@ function Weather(currentLocation) {
     }`;
     return date;
   };
-
+const apiKey = process.env.REACT_APP_OPENWEATHERMAP_API_KEY
   const search = async () => {
       setQuery("");
       setWeather({ ...weather, loading: true });
-      const apiKey = process.env.REACT_APP_OPENWEATHERMAP_API_KEY
+       
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&appid=${apiKey}`
       await axios
         .get(url)
